@@ -5,3 +5,4 @@ Regexes for all the things
 | ----- | ------ | ----- |
 | Etherum Wallet | Matches all Etherum Wallet Addresses | `^0x[a-fA-F0-9]{40}$` | 
 | Bitcoin Wallet | Matches all Bitcoin Wallet Addresses | `^(bc1\|[13])[a-zA-HJ-NP-Z0-9]{25,39}$`|
+| Flags | Capture the flag typical flag formats | `ctf{.*}\|thm{.*}\|tryhackme{.*}\|hackthebox{.*}\|flag{.*}\|htb{.*}` |
